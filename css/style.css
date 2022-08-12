@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:'kia';
+    src : url("../fonts/BYekan.ttf") format('truetype'),
+          url("../fonts/BYekan.woff") format('woff');
+}
+@font-face{
+    font-family:'lalehzar';
+    src : url("../fonts/Lalezar-Regular.ttf") format('truetype'),
+    url("../fonts/Lalezar.woff") format('woff');
+}
+body{
+    font-family: kia;
+}
+.header{
+    height: 500px;
+    background-image: url(../images/amy-hirschi-szrJ3wjzOMg-unsplash.jpg);
+    background-size:cover;
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+}
+.header .nav-list{
+    text-align: center;
+    list-style-type: none;
+
+    
+}
+.header .nav-list .nav-item{
+    display: inline-block;
+    padding: 15px;
+    
+}
+.header .nav-list .nav-item:hover{
+    display: inline-block;
+    padding: 15px;
+    color:#d4bd7d
+
+}
+.title{
+    font-size: 60px;
+    font-family: lalehzar;
+    margin-top: 90px;
+    
+}
+.header h1 span{
+    color: orange;
+}
+.desk{
+    width: 450px;
+    margin: auto;
+    height: 55px;
+    line-height: 55px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius:30px; 
+    border: 1px solid white;
+    margin-top: 50px;
+    text-align: center;
+}
+.desk:hover{
+    width: 450px;
+    margin: auto;
+    height: 55px;
+    line-height: 55px;
+    background-color: rgba(255,255,255,0.07);
+    border-radius:30px; 
+    border: 1px solid white;
+    margin-top: 50px;
+}
+
+.member-item{
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0px -1px 18px 1px #484c54;
+    border-radius: 30px
+}
+.members{
+    text-align: center;
+    padding: 50px 30px;
+}
+.member-list{
+    list-style-type: none;
+    margin-top: 25px;
+}
+.member-pic{
+    width: 100%;
+  border-radius: 30px 30px 0px 0;
+}
+.member-bio{
+    padding: 20px;
+    text-align: justify;
+}
+.member-name{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+.about{
+    background-image: url("../images/mario-gogh-VBLHICVh-lI-unsplash.jpg");
+    background-size:cover;
+    height: 700px;
+    color: aliceblue;
+    padding-top: 50px;
+    background-attachment: fixed;
+    
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    background-color: #55464659;
+    border-radius:50%;
+    margin: auto;
+    text-align: center;
+    padding: 80px 120px;
+    background-size: cover;
+    
+    
+}
+h2{
+    padding-top: 0px;
+    font-size: 40px
+}
+p{
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 20px
+}
+
+.footer{
+    
+
+    
+    
+}
+.social img{
+   display: inline-block;
+   width: 40px; 
+   height: 40px;
+   margin-top: 20px;
+    margin-left: 10px;
+ text-align: center;
+   
+}
